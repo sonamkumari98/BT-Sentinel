@@ -36,7 +36,7 @@ for _ in range(num_records):
     #ITIL Integration: Add a change Ticket ID only for configration changes
     change_ticket = "N/A"
     if action == "CONFIG_CHANGE":
-        if random.random() > 0.3: # 70% of changes have tickets(Good), 30% don't (Anomalies)
+        if random.random() > 0.5: # 70% of changes have tickets(Good), 30% don't (Anomalies)
             change_ticket = f"CHG{random.randint(10000,99999)}"
         else:
             change_ticket = " No_Ticket_Found"  # This is our anomaly for ITIL process
@@ -51,6 +51,7 @@ for _ in range(num_records):
     if user == "jdoe_dev" and _%5 == 0: #Every 5th record for this user will fail 
         action = "LOGIN"
         status = "ERROR"  # Failed login attempt for a developer, could indicate a brute-force attack
+    data.append([timestamp, user, ip, action, status, system, change_ticket]) # Append the generated log entry to our data list
 
 
 # Create DataFrame
@@ -67,5 +68,4 @@ df.to_csv(OUTPUT_FILE, index=False)
 
 print(f"Successfully generated {num_records} logs in {OUTPUT_FILE}")
       
-
 
