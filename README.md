@@ -32,12 +32,19 @@ Developed a high-impact dashboard to track compliance scores, risky users, and u
 Plaintext
 ├── scripts/
 │   ├── investigate_bt_data.py   # Main Python ETL logic
+
 │   └── database_setup.sql       # MySQL schema and table creation
+
 ├── dashboard/
+
 │   └── BT_Sentinel_UIC.pbix     # Power BI Dashboard file
+
 ├── data/
+
 │   └── processed_logs.csv       # Final cleaned data for audit
+
 └── README.md                    # Project documentation
+
 💡 Engineering Impact
 As a Computer Science Graduate, this project demonstrates my ability to:
 
