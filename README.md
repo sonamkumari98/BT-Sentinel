@@ -1,4 +1,4 @@
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Programming: Python 3.x (NumPy, Pandas, SQLAlchemy)
 
@@ -8,7 +8,7 @@ Visualization: Power BI (Interactive Security Dashboard)
 
 Domain: Identity & Access Management (IAM), ITIL Compliance, Cybersecurity
 
-⚙️ How It Works (The Pipeline)
+## ⚙️ How It Works (The Pipeline)
 1. Data Generation & Extraction (NumPy)
 Generated synthetic system logs simulating real-world Windows Server activity, including Timestamps, IP Addresses, User IDs, and Action types.
 
@@ -27,7 +27,7 @@ Processed data is automatically pushed to the bt_sentinel_db database for persis
 4. Professional Visualization (Power BI)
 Developed a high-impact dashboard to track compliance scores, risky users, and unauthorized activity trends.
 
-📂 Repository Structure
+
 
 ## 📂 Repository Structure
 
@@ -42,7 +42,7 @@ Developed a high-impact dashboard to track compliance scores, risky users, and u
 └── README.md                    # Project documentation
 ```
 
-💡 Engineering Impact
+## 💡 Engineering Impact
 As a Computer Science Graduate, this project demonstrates my ability to:
 
 Build a full-stack data pipeline from scratch.
@@ -51,7 +51,7 @@ Apply Cybersecurity principles to raw data.
 
 Bridge the gap between Software Development (Python) and Data Analytics (Power BI).
 
-How to Use:
+## How to Use:
 
 1.Run investigate_bt_data.py to process raw logs and update the MySQL database.
 
