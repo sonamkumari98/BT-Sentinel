@@ -59,3 +59,7 @@ Bridge the gap between Software Development (Python) and Data Analytics (Power B
 
 3.Click Refresh to see the latest security insights.
 
+## Excutive Dashboard Overview
+
+<img width="720" height="420" alt="Screenshot 2026-03-21 182733" src="https://github.com/user-attachments/assets/de2a9e01-5bac-48e8-99da-91f3d093dcf8" />
+
